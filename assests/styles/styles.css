@@ -1,6 +1,9 @@
 @import 'navbar.css';
-@import 'Home.css';
+@import 'home.css';
 @import 'footer.css';
+@import 'about.css';
+@import 'skills.css';
+@import 'contact.css';
 *{
     margin: 0px;
     padding: 0px;
@@ -22,4 +25,19 @@ body{
     /* padding-bottom: 100px; */
 
     
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font: 30px;
+    }
+    h3{
+        font-size: 20;
+    }
+    p{
+      font-size: 10px;
+    }
 }

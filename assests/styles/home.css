@@ -9,7 +9,7 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 10%;
-    padding-top: 20px;
+    padding-top: 50px;
     /* border: 3px solid black; */
 }
 
@@ -33,11 +33,12 @@
 }
 
 #homeProfileDetails p{
-    background-color: rgb(10, 20, 41 ,.2);
-    color: rgb(0, 0, 0);
+    background-color: rgba(25, 40, 71, 0.4);
+    color: rgb(255, 255, 255);
     font-size: 15px;
     border-radius: 100px;
     padding: 20px;
+    text-shadow: 1px 1px 3px black;
 }
 
 #homeSocialMediaIcons{
@@ -63,6 +64,10 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 100px;
+}
+#seeWorksButton1{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 #hireMeButton{
     background-color: rgb(60, 9, 243);
@@ -94,6 +99,11 @@
     border-radius: 100px;
     margin-right: 10px;
     margin-top: 10%;
+}
+
+#hire{
+  color: white;
+  text-decoration: none;
 }
 
 .popup {
@@ -142,4 +152,52 @@
       transform: translateX(0%) translateY(0);
       opacity: 1;
     }
+  }
+
+
+  @media (max-width:768px){
+
+    .homeMain{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 10%;
+      padding-top: 0px;
+     
+    }
+
+    #homeProfileDetails{
+      /* background-color: red; */
+      /* margin: 10%; */
+      padding-top:0px ;
+      margin-top: 0px;
+      /* margin-right: 5%; */
+      /* border: 3px solid black; */
+      width: 100%;
+      height: 500px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+
+  #homeProfileDetails h3{
+    color: rgb(0, 55, 87);
+    font-size: 20px;
+}
+#homeProfileDetails h1{
+  font-size: 30px;
+}
+
+#homeProfilePic1{
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+}
   }

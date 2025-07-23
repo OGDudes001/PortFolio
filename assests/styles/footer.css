@@ -5,4 +5,16 @@ footer{
     text-align: center;
     bottom: 0;
     color: rgb(25, 24, 31);
+    text-shadow: none;
+}
+
+.footerDescriptions{
+    text-shadow: none;
+}
+
+
+@media (max-width:768px){
+    footer{
+        margin-top: 20px;
+    }
 }
