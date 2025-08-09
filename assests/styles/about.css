@@ -35,14 +35,14 @@
   text-shadow: 1px 2px 2px rgb(248, 248, 248);
 }
 
-.popupRtoL {
+.ApopupRtoL {
     
-    animation: popupRtoL-up 1s ease-out forwards;
+    animation: ApopupRtoL-up 1s ease-out forwards;
   }
 
-  @keyframes popupRtoL-up {
+  @keyframes ApopupRtoL-up {
     0% {
-      transform: translateX(50%) translateY(0%);
+      transform: translateX(10%) translateY(0%);
       opacity: 0;
     }
     100% {
@@ -51,14 +51,16 @@
     }
   }
 
-  .popupLtoR {
+
+
+  .ApopupLtoR {
     
-    animation: popupLtoR-up 1s ease-out forwards;
+    animation: ApopupLtoR-up 1s ease-out forwards;
   }
 
-  @keyframes popupLtoR-up {
+  @keyframes ApopupLtoR-up {
     0% {
-      transform: translateX(-50%) translateY(0%);
+      transform: translateX(-10%) translateY(0%);
       opacity: 0;
     }
     100% {
@@ -69,7 +71,7 @@
 
   @media (max-width:768px){
     #aboutMain{
-    
+      padding-top: 55px;
       margin-left: 5%;
       margin-right: 5%;
       

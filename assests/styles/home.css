@@ -162,11 +162,13 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 0px;
+      margin-top: 60px;
       margin-left: 2%;
       margin-right: 2%;
       margin-bottom: 10%;
-      padding-top: 0px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      height: 700px;
      
     }
 
@@ -174,11 +176,11 @@
       /* background-color: red; */
       /* margin: 10%; */
       padding-top:0px ;
-      margin-top: 0px;
+      margin-top: 20px;
       /* margin-right: 5%; */
       /* border: 3px solid black; */
       width: 100%;
-      height: 500px;
+      height: 350px;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -190,6 +192,7 @@
   #homeProfileDetails h3{
     color: rgb(0, 55, 87);
     font-size: 20px;
+    margin-top: 0px;
 }
 #homeProfileDetails h1{
   font-size: 30px;
@@ -197,8 +200,16 @@
 
 #homeProfilePic1{
   top: -100px;
-  margin-top: 0px;
+  margin-top: 50px;
   padding-top: 0px;
   width: 100%;
 }
+  }
+
+  @media (max-width:375px){
+
+    #homeProfilePic1{
+      
+      width: 150%;
+    }
   }

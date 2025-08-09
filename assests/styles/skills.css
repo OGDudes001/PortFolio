@@ -1,5 +1,6 @@
 #skillsMain{
-    padding-top: 100px;
+    /* padding-top: 80px; */
+    margin-top: 50px;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -10,7 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('../images/artist.jpeg');
+    /* background-image: url('../images/artist.jpeg'); */
     background-size: cover;
     height: 300px;
     padding: 30px;
@@ -18,22 +19,24 @@
 }
 
 #skillsIntroduction p{
- background-color: rgb(46, 46, 46 , .5);
+ background-color: rgb(131, 158, 175 , .5);
  border-radius: 50px;
  padding: 15px;
- color: aliceblue;
- text-shadow: 2px 3px 3px black;
+ color: rgb(0, 0, 0);
+ text-shadow: none;
  /* font-weight: bold; */
+ margin-top: 10px;
 
 }
 
 #skillsIntroduction h2{
-    background-color: rgb(46, 46, 46 , .5);
-    border-radius: 50px;
-    padding: 5px;
-    color: aliceblue;
-    text-shadow: 2px 3px 3px black;
+  /* background-color: rgb(131, 158, 175 , .5); */
+  border-radius: 50px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
     font-weight: bold;
+    font-size: 50px;
    
    
    }
@@ -115,21 +118,7 @@
    }
    
    
-   .popupRtoL {
-    
-    animation: popupRtoL-up 1s ease-out forwards;
-  }
-
-  @keyframes popupRtoL-up {
-    0% {
-      transform: translateX(50%) translateY(0%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0%) translateY(0);
-      opacity: 1;
-    }
-  }
+   
 
 
   @media (max-width:768px){
@@ -189,5 +178,6 @@
   
      .sampleAnimation{
       height: 250px;
+      width: 95%;
      }
   }
