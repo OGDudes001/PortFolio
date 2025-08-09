@@ -126,17 +126,29 @@
     #skillsMain{
       margin-left: 5%;
       margin-right: 5%;
+      margin-top: 55px;
+      padding-top: 0px;
   }
   
   
- 
+  #skillsIntroduction{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
   
   #skillsIntroduction h2{
-     
-      font-size: 20px;
+     padding-top: 0px;
+     margin-top: 0px;
+      font-size: 25px;
      
      
      }
+     #skillsIntroduction p{
+    
+       font-size: 13px;
+      
+      
+      }  
     
    
      #sampleArts{
